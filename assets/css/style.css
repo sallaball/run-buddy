@@ -258,3 +258,10 @@ footer a {
 .contact-info a {
     color: #fce138;
 }
+
+.secondary-content {
+    color: rgb(29, 29, 99);
+    line-height: 1.5;
+    margin: 30px 80px 15px 80px;
+}
+
