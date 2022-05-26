@@ -15,3 +15,31 @@
     font-style: italic;
     margin: 30px auto 45px auto;
 }
+
+.secondary-content {
+    width: 80%;
+    text-align: left;
+    color: #024e76;
+    margin: 0 80px 0 120px;
+
+}
+
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content ul {
+    margin: 15px 20px 15px 20px;
+}
+
+.secondary-content li {
+    color: #39a6b2;
+    margin: 10px 0 10px 0;
+}
