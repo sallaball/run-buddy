@@ -13,11 +13,11 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: #39a6b2;
+    color: var(--tertiary-color);
 }
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -129,7 +129,7 @@ footer a {
 }
 
 .hero-form button:hover {
-    color: #39a6b2;
+    color: var(--tertiary-color);
 }
 
   .hero-form h3 {
@@ -203,7 +203,7 @@ footer a {
     top: -3px;
     left: -29px;
     border-radius: 50%;
-    background-image: radial-gradient(circle,#39a6b2, var(--secondary-color));
+    background-image: radial-gradient(circle,var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {
@@ -233,7 +233,7 @@ footer a {
 .intro p {
     text-align: center;
     line-height: 1.7;
-    color: #39a6b2;
+    color: var(--tertiary-color);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -252,7 +252,7 @@ footer a {
 }
 
 .secondary-border {
-    border-color: #39a6b2
+    border-color: var(--tertiary-color)
 }
 
 .steps {
@@ -267,7 +267,7 @@ footer a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #39a6b2;
+    border-bottom: 1px solid var(--tertiary-color);
 }
 
 .step:last-child {
@@ -297,7 +297,7 @@ footer a {
 }
 
 .step-text p {
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-size: 18px;
 }
 
@@ -445,7 +445,7 @@ footer a {
 
 .contact-form button:hover {
     color: var(--primary-color);
-    background: #39a6b2;
+    background: var(--tertiary-color);
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
